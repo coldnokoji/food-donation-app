@@ -1,0 +1,62 @@
+.navWrapper div{
+    display: flex;
+    align-items: center;
+}
+
+.Logo{
+    width: 80px;
+    height: 80px;
+}
+.navWrapper{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1vw;
+    padding-right: 3vw;
+}
+.LogoText{
+    color: green;
+}
+.WelcomeTag{
+    font-size: 3.5vh;
+    text-align: center;
+    
+}
+.WelcomeTag h1{
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+.navButton a{
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+    font-size: larger;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+.navButton .navlink:hover{
+  text-decoration: none;
+  padding: 5px;
+  margin: 5px;
+  font-size: larger;
+  color: black;
+  font-weight: bold;
+  font-size: 22px;
+  transition: 0.7s;
+  
+}
+
+.navButton .navlink::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #71c77c;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: all .5s ease;
+}
+.navButton .navlink:hover::after{
+    width: 100%;
+}

@@ -1,0 +1,70 @@
+.donation-front-page{
+    background-image: url(../assets/images/donation-background.jpg) ;
+    opacity: 0.8;
+    height: 120vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#donation{
+    padding-top: 10vh;
+    padding-left: 40vh;
+    padding-right: 40vh;
+}
+#donation .container{
+    background-color: rgb(255, 255, 255);
+    border-radius: 4%;
+    padding: 5vh;
+    position: relative;
+}
+#donation .container input{
+    margin: 4px;
+    border: none;
+	border-bottom: 2px solid #D1D1D4;
+	background: none;
+    font-size: 20px;
+	padding: 10px;
+	padding-left: 24px;
+	font-weight: 700;
+	width: 100%;
+	transition: .2s;
+    outline: none;
+}
+#donation .container input:active,
+#donation .container input:focus,
+#donation .container input::after{
+    outline: none;
+	border-bottom-color: #44915e;
+}
+#donation .container button{
+    padding: 10px;
+    font-size: 18px;
+    margin: 20px 0px 10px 30px;
+    border: none;
+}
+#donation .container p{
+    margin: 4px;
+    border: none;
+	border-bottom: 2px solid #44915e;
+	background: none;
+    font-size: 20px;
+	padding: 10px;
+	padding-left: 24px;
+	font-weight: 700;
+	width: 100%;
+	transition: .2s;
+    outline: none;
+}
+#donation .container select{
+    border:none;
+    padding: 30px 30px;
+    border-radius:5px;
+    font-size: 20px;
+}
+  
+#donation .container select:focus{
+    outline:none;
+}
+#donation .container h1{
+    padding-bottom: 10px;
+    color:#6c6c6d;
+}
