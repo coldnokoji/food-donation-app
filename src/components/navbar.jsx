@@ -40,9 +40,7 @@ const Navbar = () => {
         <div>
             <nav>
 
-                <div className="WelcomeTag">
-                    <h1>Welcome to AannAahar</h1>
-                </div>
+                
                 <div className="navWrapper">
                     <div>
                         <div><img src={logo} alt="Logo" className="Logo" /></div>

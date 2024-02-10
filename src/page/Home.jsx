@@ -12,6 +12,9 @@ const Home = () => {
         <>
             <Navbar />
             <div className="home-front-page">
+            <div className="WelcomeTag">
+                    <h1>Welcome to AannAahar</h1>
+                </div>
             </div>
             <div className="bottom">
                 <h1 className="tag-line">Nourish your aspirations today for a future brimming with empowerment</h1>

@@ -26,12 +26,12 @@
     margin-bottom: 0;
     margin-top: 10px;
 }
-.navButton a{
+.navButton .navlink{
     text-decoration: none;
     padding: 5px;
     margin: 5px;
     font-size: larger;
-    color: black;
+    color: #041d03;
     font-weight: bold;
     font-size: 20px;
 }
