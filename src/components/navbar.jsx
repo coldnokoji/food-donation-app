@@ -54,10 +54,11 @@ const Navbar = () => {
                         <span className="navButton"><a className="navlink" href="#">About us</a></span>
                         <span className="navButton"><a className="navlink" href="#">Contact us</a></span>
                         <span className="navButton"><NavLink className="navlink" to="/donate" >Donate</NavLink></span>
+                        <span className="navButton"><NavLink className="navlink" to="/profile" >Profile</NavLink></span>
                         <span className="navButton">{loggedIn ? (
                             <button onClick={handleLogout}>Logout</button>
                         ) : (
-                            <NavLink to="/login" >
+                            <NavLink className="navlink" to="/login" >
                             Sign in
                         </NavLink>
                         )}</span>

@@ -1,0 +1,73 @@
+.body {
+    background: linear-gradient(rgba(192, 231, 192,0.6),#66c372);
+}
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+.heading{
+    padding: 20px;
+}
+.back-button{
+    padding-top: 20px;
+}
+.back-button a{
+    display: flex;
+    padding-left: 10px;
+    text-decoration: none;
+    color: black;
+}
+.back-button a i{
+    color: red;
+}
+.back-button a p{
+    padding-left: 10px;
+    font-weight: 600;
+}
+h1 {
+    text-align: center;
+}
+
+#pointsDisplay {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#giftsContainer {
+    display: flex;
+    justify-content: space-around;
+    /* background-color: white; */
+}
+
+.gift {
+    margin:20px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 10px;
+    width: 400px;
+    text-align: center;
+    /* cursor: pointer; */
+    background-color: white;
+
+}
+.gift img{
+    padding-top: 30px;
+    width: 350px;
+    height: 350px;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: #45a049;
+}

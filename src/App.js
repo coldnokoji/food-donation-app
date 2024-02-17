@@ -5,6 +5,9 @@ import Login from './page/Login';
 import { BrowserRouter as Router} from 'react-router-dom';
 import {Routes, Route} from 'react-router-dom';
 import Donate from './page/Donate';
+import Profile from './page/Profile';
+import Credit from './page/Credit';
+
  
 function App() {
  
@@ -17,6 +20,9 @@ function App() {
                <Route path="/signup" element={<Signup/>}/>
                <Route path="/login" element={<Login/>}/>
                <Route path="/donate" element={<Donate/>}/>
+               <Route path="/profile" element={<Profile/>}/>
+               <Route path='/credit' element={<Credit/>}/>
+               
             </Routes>                    
         </section>
       </div>
