@@ -38,7 +38,7 @@ const Signup = () => {
                     <div id="card">
                         <div id="card-content">
                             <div id="card-title">
-                                <h2>SignUp Page</h2>
+                                <h2>SignUp Page</h2><br />
                                 <div className="underline-title"></div>
                             </div>
                             <form className="form">

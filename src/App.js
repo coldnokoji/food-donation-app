@@ -7,6 +7,7 @@ import {Routes, Route} from 'react-router-dom';
 import Donate from './page/Donate';
 import Profile from './page/Profile';
 import Credit from './page/Credit';
+import About from './page/About';
 
  
 function App() {
@@ -22,7 +23,7 @@ function App() {
                <Route path="/donate" element={<Donate/>}/>
                <Route path="/profile" element={<Profile/>}/>
                <Route path='/credit' element={<Credit/>}/>
-               
+               <Route path='/about' element={<About/>}/>
             </Routes>                    
         </section>
       </div>

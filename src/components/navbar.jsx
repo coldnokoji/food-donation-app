@@ -51,8 +51,7 @@ const Navbar = () => {
                     <div>
 
                         <span className="navButton"><NavLink className="navlink" to="/" >Home</NavLink></span>
-                        <span className="navButton"><a className="navlink" href="#">About us</a></span>
-                        <span className="navButton"><a className="navlink" href="#">Contact us</a></span>
+                        <span className="navButton"><NavLink className="navlink" to="/about" >About</NavLink></span>
                         <span className="navButton"><NavLink className="navlink" to="/donate" >Donate</NavLink></span>
                         <span className="navButton"><NavLink className="navlink" to="/profile" >Profile</NavLink></span>
                         <span className="navButton">{loggedIn ? (
