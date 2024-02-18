@@ -16,7 +16,21 @@ import { NavLink } from "react-router-dom";
 
 
 const Credit = () =>{
+  let points = 4000; // Example starting points
 
+  function redeemGift(giftPoints) {
+  if (points >= giftPoints) {
+      points -= giftPoints;
+      updatePointsDisplay();
+      alert("Gift redeemed successfully!");
+  } else {
+      alert("Insufficient points to redeem this gift.");
+  }
+  }
+
+  function updatePointsDisplay() {
+  document.getElementById("points").innerText = points;
+  }
 
  return(
     <>
@@ -39,7 +53,7 @@ const Credit = () =>{
       <img src={noise_watch}/>
       <h2>Noise Colorfir Pro 3</h2>
       <p>Points Required: 2000</p>
-      <button onclick="redeemGift(2000)">Redeem</button>
+      <button onclick={"redeemGift(2000)"}>Redeem</button>
     </div>
     <div class="gift" data-points="100">
       <img src={philips_mixer_grinder}/>

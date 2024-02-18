@@ -52,7 +52,7 @@ const Profile = () =>{
                 </ul>
             </nav>
         </div>
-        <h2>Profile InhtmlFormation</h2>
+        <h2>My Profile</h2>
         <div className="profile-info">
             <div className="profile-pic">
                 <img src={profile} alt="Profile"/>
