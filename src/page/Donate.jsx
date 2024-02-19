@@ -173,6 +173,8 @@ const Donate = () => {
               <option value="pan-card">PAN Card</option>
               <option value="driving-liscense">Driving License</option>
             </select>
+            
+            <input type="file" id="Credentials" name="Credentials" placeholder="Upload file"  />
             {/* <input type="file" accept=".png,.jpeg,.jpg,.pdf" onchange={validateImage()} id="image"/>  */}
             <div style={{display:"flex",justifyContent : "space-around", width:"max-width"}}>
             <button onClick={onSubmit}>Submit</button>
